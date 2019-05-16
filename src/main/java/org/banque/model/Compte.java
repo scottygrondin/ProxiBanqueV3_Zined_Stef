@@ -22,6 +22,27 @@ public class Compte {
 		super();
 
 	}
+
+	public Long getIdCompte() {
+		return idCompte;
+	}
+
+	public void setIdCompte(Long idCompte) {
+		this.idCompte = idCompte;
+	}
+
+	public Double getSolde() {
+		return solde;
+	}
+
+	public void setSolde(Double solde) {
+		this.solde = solde;
+	}
+
+	@Override
+	public String toString() {
+		return "Compte [idCompte=" + idCompte + ", solde=" + solde + "]";
+	}
 	
 	
 
