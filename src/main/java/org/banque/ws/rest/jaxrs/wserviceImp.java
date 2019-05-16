@@ -8,14 +8,13 @@ import org.banque.model.Client;
 import org.banque.service.BanqueService;
 import org.banque.service.BanqueServiceImpl;
 
+
 public class wserviceImp implements wservice {
 
 	private BanqueService bs = new BanqueServiceImpl();
-
+	
 	public wserviceImp() {
-		// TODO Auto-generated constructor stub
 	}
-
 	@Override
 	public Client afficherClient(String id) {
 		Long longId = Long.valueOf(id);
